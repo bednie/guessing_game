@@ -1,3 +1,5 @@
+// sample project from The Rust Programming Language. 
+
 use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
@@ -5,6 +7,7 @@ use rand::Rng;
 fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1, 101);
+    
     loop {
         println!("Please input your guess.");
 
